@@ -3,17 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eg_myquoter</title>
-    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <title>eg_myquoter</title>    
+    <link rel="stylesheet" href="main.css">
   </head>
   <body class="container">
-  <!-- <body class="container" onload="showOne()"> -->
-    <main>
+     <main>
       <figure>
-        <blockquote id="blockquote">Select a category, then fetch a quote. Or just get a random one.</blockquote>
+        <blockquote id="blockquote">Select a category</blockquote>
         <figcaption id="author"></figcaption>
-        <!-- <button role="button" onclick="showOne()">Quote</button> -->
+       
         <div class="inputs">
           <select name="category" id="select">
             <option value="prequel">Prequel</option>
@@ -30,8 +28,7 @@
     <hr>
     <footer>
       <p>&copy;<span class="numbers">2023</span> Rachel Benkovich</p>
-    </footer>
-    <!-- loads page scripts -->
+    </footer>  
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>
   </body>
