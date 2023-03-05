@@ -15,7 +15,9 @@ body {
   }
   figure {
     margin: 20rem;
-    background: red;
+    background: rgb(207, 128, 63);
+    border-radius: 25px;
+    opacity: .5;
     align-items: center;
     display: flex;
     padding: 1em;
