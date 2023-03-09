@@ -1,9 +1,10 @@
 body {    
    
-    width: 100%;
+    
     height: 100vh;
     padding: var(--block-spacing-vertical) 0;
   }
+  
   blockquote {
     position: relative;
     text-align: center;
@@ -11,16 +12,21 @@ body {
     font-weight: 200;
     padding: 2em 2em 0 2em;
     border-left: 0;
-    min-height: 8em;
+    min-height: 4em;
   }
+  .quote {
+    display: flex;
+    justify-content: space-around;
+  } 
   figure {
     margin: 20rem;
     background: rgb(207, 128, 63);
     border-radius: 25px;
     opacity: .5;
-    align-items: center;
+    justify-content: center;
     display: flex;
     padding: 1em;
+    flex-direction: column;
 
   }
   .inputs {
@@ -30,7 +36,7 @@ body {
     gap: 2em;
   }
   [role="button"], button, input[type="button"], input[type="reset"], input[type="submit"] {
-    width: 33%;
+    
     background-color: transparent;
     border-width: .18em;
     color: var(--primary);
